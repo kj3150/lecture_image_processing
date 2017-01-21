@@ -1,66 +1,66 @@
-# ‰Û‘è‚RƒŒƒ|[ƒg
+# èª²é¡Œï¼“ãƒ¬ãƒãƒ¼ãƒˆ
 
-ƒtƒŠ[‘fŞƒTƒCƒgu‚Ï‚­‚½‚»v‚ÌÊ^‚ğŒ´‰æ‘œ‚Æ‚·‚éD‚±‚Ì‰æ‘œ‚Íc533‰æ‘fC‰¡800‰æ‘f‚É‚æ‚éƒfƒBƒWƒ^ƒ‹ƒJƒ‰[‰æ‘œ‚Å‚ ‚éD
+ãƒ•ãƒªãƒ¼ç´ æã‚µã‚¤ãƒˆã€Œã±ããŸãã€ã®å†™çœŸã‚’åŸç”»åƒã¨ã™ã‚‹ï¼ã“ã®ç”»åƒã¯ç¸¦533ç”»ç´ ï¼Œæ¨ª800ç”»ç´ ã«ã‚ˆã‚‹ãƒ‡ã‚£ã‚¸ã‚¿ãƒ«ã‚«ãƒ©ãƒ¼ç”»åƒã§ã‚ã‚‹ï¼
 
-Œ´‰æ‘œŒ³@https://www.pakutaso.com/20160656173post-8191.html
+åŸç”»åƒå…ƒã€€https://www.pakutaso.com/20160656173post-8191.html
 
-![Œ´‰æ‘œ](https://github.com/kj3150/lecture_image_processing/blob/master/kadai3/kadai3org.jpg?raw=true)  
-}1 Œ´‰æ‘œ     
-
-
-‚±‚ÌŒ³‚Ì‰æ‘œ‚ğƒOƒŒ[ƒXƒP[ƒ‹‰»‚µ‚½ŒãC4ƒpƒ^[ƒ“‚Ìè‡’l‚ğİ’è‚µCè‡’lˆ—‚µ‚½‰æ‘œ‚ğ•\¦‚·‚éD
+![åŸç”»åƒ](https://github.com/kj3150/lecture_image_processing/blob/master/kadai3/kadai3org.jpg?raw=true)  
+å›³1 åŸç”»åƒ     
 
 
-ORG=imread('kadai3org.jpg'); % Œ´‰æ‘œ‚Ì“ü—Í  
-ORG= rgb2gray(ORG); % ƒJƒ‰[‰æ‘œ‚ğ”’•”Z’W‰æ‘œ‚Ö•ÏŠ·
-
-imagesc(ORG); colormap(gray); colorbar; % ‰æ‘œ‚Ì•\¦
-
-‚É‚æ‚Á‚ÄCŒ´‰æ‘œ‚ğ“Ç‚İ‚İCƒOƒŒ[ƒXƒP[ƒ‹‰»‚ğs‚¤D•\¦‚µ‚½Œ‹‰Ê‚ğ}2‚É¦‚·D
-
-![Œ´‰æ‘œ](https://github.com/kj3150/lecture_image_processing/blob/master/kadai3/kadai3-1.png?raw=true)  
-}2 ƒOƒŒ[ƒXƒP[ƒ‹‰»
+ã“ã®å…ƒã®ç”»åƒã‚’ã‚°ãƒ¬ãƒ¼ã‚¹ã‚±ãƒ¼ãƒ«åŒ–ã—ãŸå¾Œï¼Œ4ãƒ‘ã‚¿ãƒ¼ãƒ³ã®é–¾å€¤ã‚’è¨­å®šã—ï¼Œé–¾å€¤å‡¦ç†ã—ãŸç”»åƒã‚’è¡¨ç¤ºã™ã‚‹ï¼
 
 
-‹P“x’l‚ª64ˆÈã‚Ì‰æ‘f‚ğ1C‚»‚Ì‘¼‚ğ0‚É‚·‚éƒpƒ^[ƒ“
+ORG=imread('kadai3org.jpg'); % åŸç”»åƒã®å…¥åŠ›  
+ORG= rgb2gray(ORG); % ã‚«ãƒ©ãƒ¼ç”»åƒã‚’ç™½é»’æ¿ƒæ·¡ç”»åƒã¸å¤‰æ›
+
+imagesc(ORG); colormap(gray); colorbar; % ç”»åƒã®è¡¨ç¤º
+
+ã«ã‚ˆã£ã¦ï¼ŒåŸç”»åƒã‚’èª­ã¿è¾¼ã¿ï¼Œã‚°ãƒ¬ãƒ¼ã‚¹ã‚±ãƒ¼ãƒ«åŒ–ã‚’è¡Œã†ï¼è¡¨ç¤ºã—ãŸçµæœã‚’å›³2ã«ç¤ºã™ï¼
+
+![åŸç”»åƒ](https://github.com/kj3150/lecture_image_processing/blob/master/kadai3/kadai3-1.png?raw=true)  
+å›³2 ã‚°ãƒ¬ãƒ¼ã‚¹ã‚±ãƒ¼ãƒ«åŒ–
+
+
+è¼åº¦å€¤ãŒ64ä»¥ä¸Šã®ç”»ç´ ã‚’1ï¼Œãã®ä»–ã‚’0ã«ã™ã‚‹ãƒ‘ã‚¿ãƒ¼ãƒ³
 
     
-IMG = ORG > 64; % ‹P“x’l‚ª64ˆÈã‚Ì‰æ‘f‚ğ1C‚»‚Ì‘¼‚ğ0‚É•ÏŠ·  
+IMG = ORG > 64; % è¼åº¦å€¤ãŒ64ä»¥ä¸Šã®ç”»ç´ ã‚’1ï¼Œãã®ä»–ã‚’0ã«å¤‰æ›  
 imagesc(IMG); colormap(gray); colorbar;
 
 
-![Œ´‰æ‘œ](https://github.com/kj3150/lecture_image_processing/blob/master/kadai3/kadai3-2.png?raw=true)  
-}3 è‡’l64
+![åŸç”»åƒ](https://github.com/kj3150/lecture_image_processing/blob/master/kadai3/kadai3-2.png?raw=true)  
+å›³3 é–¾å€¤64
 
 
-‹P“x’l‚ª96ˆÈã‚Ì‰æ‘f‚ğ1C‚»‚Ì‘¼‚ğ0‚É‚·‚éƒpƒ^[ƒ“
+è¼åº¦å€¤ãŒ96ä»¥ä¸Šã®ç”»ç´ ã‚’1ï¼Œãã®ä»–ã‚’0ã«ã™ã‚‹ãƒ‘ã‚¿ãƒ¼ãƒ³
 
 IMG = ORG > 96;  
 imagesc(IMG); colormap(gray); colorbar;
 
 
-![Œ´‰æ‘œ](https://github.com/kj3150/lecture_image_processing/blob/master/kadai3/kadai3-3.png?raw=true)  
-}4 è‡’l96
+![åŸç”»åƒ](https://github.com/kj3150/lecture_image_processing/blob/master/kadai3/kadai3-3.png?raw=true)  
+å›³4 é–¾å€¤96
 
-‹P“x’l‚ª128ˆÈã‚Ì‰æ‘f‚ğ1C‚»‚Ì‘¼‚ğ0‚É‚·‚éƒpƒ^[ƒ“
+è¼åº¦å€¤ãŒ128ä»¥ä¸Šã®ç”»ç´ ã‚’1ï¼Œãã®ä»–ã‚’0ã«ã™ã‚‹ãƒ‘ã‚¿ãƒ¼ãƒ³
 
 
 
 IMG = ORG > 128;  
-imagesc(IMG); colormap(gray); colorbar;@@
+imagesc(IMG); colormap(gray); colorbar;ã€€ã€€
 
 
 
 
-![Œ´‰æ‘œ](https://github.com/kj3150/lecture_image_processing/blob/master/kadai3/kadai3-4.png?raw=true)  
-}5 è‡’l128
+![åŸç”»åƒ](https://github.com/kj3150/lecture_image_processing/blob/master/kadai3/kadai3-4.png?raw=true)  
+å›³5 é–¾å€¤128
 
-‹P“x’l‚ª192ˆÈã‚Ì‰æ‘f‚ğ1C‚»‚Ì‘¼‚ğ0‚É‚·‚éƒpƒ^[ƒ“
+è¼åº¦å€¤ãŒ192ä»¥ä¸Šã®ç”»ç´ ã‚’1ï¼Œãã®ä»–ã‚’0ã«ã™ã‚‹ãƒ‘ã‚¿ãƒ¼ãƒ³
 
 IMG = ORG > 192;  
 imagesc(IMG); colormap(gray); colorbar;
 
-![Œ´‰æ‘œ](https://github.com/kj3150/lecture_image_processing/blob/master/kadai3/kadai3-5.png?raw=true) 
-}6 è‡’l192
+![åŸç”»åƒ](https://github.com/kj3150/lecture_image_processing/blob/master/kadai3/kadai3-5.png?raw=true)  
+å›³6 é–¾å€¤192
 
 
