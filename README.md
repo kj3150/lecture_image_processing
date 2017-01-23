@@ -1,4 +1,7 @@
-(参考)Matlab入門  
+各課題のmdファイルは課題フォルダ（kadai1等）に含まれています．
+
+
+(参考)Matlab入門  
 http://www.ns.kogakuin.ac.jp/~ct13050/johogaku/2-2.matlab_getstart.pdf
 
 例えば，このようにしてレポートを作成することが可能です．  
